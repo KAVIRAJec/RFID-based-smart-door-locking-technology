@@ -11,7 +11,8 @@ MFRC522 mfrc522(SS_PIN, RST_PIN);
 Servo myServo; //define servo name
  LiquidCrystal lcd(A0, A1, A2, A3, A4, A5);
 void setup() 
-{ Serial.begin(115200);  
+{ 
+ Serial.begin(115200);  
   SPI.begin();     
   mfrc522.PCD_Init(); 
   myServo.attach(5); 
