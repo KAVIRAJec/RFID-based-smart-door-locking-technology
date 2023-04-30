@@ -71,7 +71,8 @@ void loop()
     digitalWrite(LED_G, LOW);
     delay(1000);
   }
- else   {
+ else 
+ {
     Serial.println(" Access denied");
     delay(500);
     digitalWrite(LED_R, HIGH);
