@@ -9,7 +9,7 @@
 #define BUZZER 8 
 MFRC522 mfrc522(SS_PIN, RST_PIN);  
 Servo myServo; //define servo name
- LiquidCrystal lcd(A0, A1, A2, A3, A4, A5);
+LiquidCrystal lcd(A0, A1, A2, A3, A4, A5);
 
 void setup() 
 { 
