@@ -6,6 +6,8 @@
 
 - The PCB board serves as a platform for connecting and mounting the components of the system, including the RFID reader, Arduino, and other supporting components such as power supplies, LEDs, and resistors.
 
+- The RFID verified and process the suitable tag with the help of Atmega chip.Then it display the output in the lcd display whether its the suitable tag or not.
+
 ## Technology Used
 Designing an RFID based attendance monitoring system using Arduino and PCB design requires knowledge of electronics, microcontrollers, programming, and PCB designing.
 
